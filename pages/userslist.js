@@ -1,5 +1,5 @@
 import React from 'react';
-import {GetAllUsers} from '../../data/GetAllUsers'
+import {GetAllUsers} from '../data/GetAllUsers'
 
 class App extends React.Component {
     render() {
