@@ -5,7 +5,7 @@ import Content from '../components/Content';
 
 import { useUser } from '@auth0/nextjs-auth0';
 
-const Index = () => {
+export default () => {
   const { user, error, isLoading } = useUser();
 
   if (isLoading) return <div>Loading...</div>;
@@ -20,8 +20,5 @@ const Index = () => {
       </>
     );
   }
-  return 
-  <a href="/api/login">Login</a>;
+  return <a href="/api/login">Login</a>;
 };
-
-export default Index
