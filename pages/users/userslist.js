@@ -1,4 +1,4 @@
-/*
+
 import React from 'react';
 import {GetAllUsers} from '../../data/GetAllUsers'
 
@@ -14,7 +14,7 @@ class App extends React.Component {
 }
 
 export default App ; 
-*/
+
 /*
 import NextLink from "next/link";
 import {
